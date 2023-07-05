@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<form action="{{url_for('views.home')}}" method="post">
+
+
+  <div class="col-md-4 px-0">
+    <div class="form-group ">
+      <label for="">Vechile number</label>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="KL-02AF-2419" name="vnumber"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 px-0">
+    <div class="form-group">
+      <label for="">Your Mobile Number</label>
+      <div class="input-group ">
+        <input type="text" class="form-control" placeholder="91 2345678910" name="number" />
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-box">
+    <input type="submit" value=" View  price chart and book " class="" > 
+
+  </div>
+</form>
+
+</body>
+</html>

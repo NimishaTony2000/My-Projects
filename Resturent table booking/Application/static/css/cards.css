@@ -1,0 +1,99 @@
+*{
+    align-content: center;
+    margin: 25px;
+    padding: 30px;
+}
+.main{
+    align-items: center;
+}
+
+
+
+
+#div1{
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    width:150px;
+    height: 170px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 40px;
+}
+
+#div2{
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    width:150px;
+    height: 170px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 40px;
+}
+#div3{
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    width:150px;
+    height: 170px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 40px;
+}
+#div4{
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    width:150px;
+    height: 170px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 40px;
+}
+#div5{
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    width:150px;
+    height: 170px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 40px;
+}
+#div6{
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    width:150px;
+    height: 170px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 40px;
+}
+#div7{
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    width:150px;
+    height: 170px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 40px;
+}
+#div8{
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    width:150px;
+    height: 170px;
+    background-color: rgb(38, 173, 38);
+    border-radius: 5px;
+    margin: 40px;
+}
+
+
+body{
+    background-color: rgb(168, 129, 129);
+    color: white;
+}

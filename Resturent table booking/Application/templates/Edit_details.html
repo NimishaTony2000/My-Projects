@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<meta charset="utf-8">
+	<title>Edit details</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/nunito-font.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href= "{{ url_for('static',filename='css/style1.css') }}"/>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar">
+				
+	  		<div class="img bg-wrap text-center py-4" style="background-image: url(images/bg_1.jpg);">
+	  			<div class="user-logo">
+	  				<div class="img" style="background-image: url(images/logo.jpg);"></div>
+	  				<h3>Restaurant A</h3>
+	  			</div>
+	  		</div>
+        <ul class="list-unstyled components mb-5">
+          <li class="active">
+            <a href="resturent-home.html"><span class="fa fa-home mr-3"></span> Home</a>
+          </li>
+          <li>
+            <a href="Reservations.html"><span class="fa fa-edit mr-3"></span> Reservations</a>
+          </li>
+          <li>
+            <a href="Edit details.html"><span class="fa fa-edit mr-3"></span> Edit Details</a>
+          </li>
+          <li>
+            <a href="tables.html"><span class="fa fa-edit mr-3"></span> Edit Tables</a>
+          </li>
+          <li>
+            <a href="#"><span class="fa fa-sign-out mr-3"></span> Sign Out</a>
+          </li>
+        </ul>
+    	</nav>
+
+        <!-- Page Content  -->
+      
+        <div class="page-content">
+          <div class="form-v9-content" style="background-image: url('images/form-v9.jpg')">
+            <form class="form-detail" action="#" method="post">
+              <h2>Edit Details</h2>
+                <div class="form-row-center">
+                  <input type="text" name="name" id="full-name" class="input-text" placeholder="Your Name" required>
+                </div>
+                <div class="form-row-center">
+                  <input type="text" name="location" id="your-email" class="input-text" placeholder="Location" >
+                </div>
+				<div class="form-row-center">
+					<input type="text" name="about" id="your-email" class="input-text" placeholder="about" >
+				</div>
+              <div class="form-row-last">
+                <input type="submit" name="edit" class="register" value="Edit">
+              </div>
+            </form>
+          </div>
+        </div>
+	
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

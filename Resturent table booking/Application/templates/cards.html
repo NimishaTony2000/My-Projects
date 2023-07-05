@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> free slots</title>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="./static/css/cards.css">
+
+    <script language="javascript">
+        setTimeout(function(){
+           window.location.reload(1);
+        }, 2000);
+        </script>
+    
+</head>
+
+
+
+
+<body>
+   
+
+        <div class="row">
+        {%for i,j in data.items() %}
+
+        <a href="{{ url_for('views.cardd',id= i ) }}" method="post">
+            <div class="column">
+              <div style="background-color:{{ j }}" class="card"></div>
+              </a>
+            </div> 
+        
+        {%endfor%}
+    </div>
+
+  
+
+  
+    
+
+</body>
+</html>
+
+<!-- <div class="pull-right  p-5">
+
+    <a href="{{url_for('views.price')}}" >Continue</a> 
+    
+  </div> -->
